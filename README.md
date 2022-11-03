@@ -1,2 +1,2 @@
-# My_First_Angular_App
-This is my first frontend application I created with Angular framework
+# My Mock Inventory Application
+This apllication is a project I created with Angular when I was learning the Angular Framework
