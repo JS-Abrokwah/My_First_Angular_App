@@ -1,0 +1,15 @@
+<div class="col col-md-2">
+  <product-image [product]="product"></product-image>
+</div>
+<div class="col col-md-7">
+  <div class="h3">{{ product.name }}</div>
+  <div class="text-muted">
+    <div>SKU #{{ product.sku }}</div>
+  </div>
+  <div>
+    <product-department [product]="product"></product-department>
+  </div>
+</div>
+<div class="col col-md-3">
+ <price-display [price]="product.price"></price-display>
+</div>
